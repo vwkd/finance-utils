@@ -1,29 +1,235 @@
 // Quelle: https://de.wikipedia.org/wiki/Grundfreibetrag_(Deutschland)
+// ?? Realwert in 2024
 export const grundfreibetrag = [
-  ["Jahre", "Nominalwert", "Realwert (2024)"],
-  [2002, 7_235, 10_690],
-  [2003, 7_235, 10_690],
-  [2004, 7_664, 10_290],
-  [2005, 7_664, 10_290],
-  [2006, 7_664, 10_290],
-  [2007, 7_664, 10_290],
-  [2008, 7_664, 10_290],
-  [2009, 7_834, 10_490],
-  [2010, 8_004, 10_180],
-  [2011, 8_004, 10_180],
-  [2012, 8_004, 10_180],
-  [2013, 8_130, 10_190],
-  [2014, 8_354, 10_370],
-  [2015, 8_472, 10_460],
-  [2016, 8_652, 10_630],
-  [2017, 8_820, 10_680],
-  [2018, 9_000, 10_700],
-  [2019, 9_168, 10_750],
-  [2020, 9_408, 10_980],
-  [2021, 9_744, 11_030],
-  [2022, 10_347, 10_960],
-  [2023, 10_908, 10_910],
-  [2024, 11_604, undefined],
+  {
+    "Jahre": 2002,
+    "Wert": 7235,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2002,
+    "Wert": 10690,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2003,
+    "Wert": 7235,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2003,
+    "Wert": 10690,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2004,
+    "Wert": 7664,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2004,
+    "Wert": 10290,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2005,
+    "Wert": 7664,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2005,
+    "Wert": 10290,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2006,
+    "Wert": 7664,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2006,
+    "Wert": 10290,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2007,
+    "Wert": 7664,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2007,
+    "Wert": 10290,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2008,
+    "Wert": 7664,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2008,
+    "Wert": 10290,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2009,
+    "Wert": 7834,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2009,
+    "Wert": 10490,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2010,
+    "Wert": 8004,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2010,
+    "Wert": 10180,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2011,
+    "Wert": 8004,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2011,
+    "Wert": 10180,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2012,
+    "Wert": 8004,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2012,
+    "Wert": 10180,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2013,
+    "Wert": 8130,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2013,
+    "Wert": 10190,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2014,
+    "Wert": 8354,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2014,
+    "Wert": 10370,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2015,
+    "Wert": 8472,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2015,
+    "Wert": 10460,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2016,
+    "Wert": 8652,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2016,
+    "Wert": 10630,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2017,
+    "Wert": 8820,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2017,
+    "Wert": 10680,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2018,
+    "Wert": 9000,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2018,
+    "Wert": 10700,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2019,
+    "Wert": 9168,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2019,
+    "Wert": 10750,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2020,
+    "Wert": 9408,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2020,
+    "Wert": 10980,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2021,
+    "Wert": 9744,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2021,
+    "Wert": 11030,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2022,
+    "Wert": 10347,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2022,
+    "Wert": 10960,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2023,
+    "Wert": 10908,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2023,
+    "Wert": 10910,
+    "Wertart": "Realwert",
+  },
+  {
+    "Jahre": 2024,
+    "Wert": 11604,
+    "Wertart": "Nominalwert",
+  },
+  {
+    "Jahre": 2024,
+    "Wertart": "Realwert",
+  },
 ];
 
 // Quelle: https://de.wikipedia.org/wiki/Tarifgeschichte_der_Einkommensteuer_in_Deutschland#Seit_2007
