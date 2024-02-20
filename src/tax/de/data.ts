@@ -1,5 +1,4 @@
 // Quelle: https://de.wikipedia.org/wiki/Grundfreibetrag_(Deutschland)
-// ?? Realwert in 2024
 export const grundfreibetrag = [
   {
     "Jahre": 2002,
@@ -7,29 +6,14 @@ export const grundfreibetrag = [
     "Wertart": "Nominalwert",
   },
   {
-    "Jahre": 2002,
-    "Wert": 10690,
-    "Wertart": "Realwert",
-  },
-  {
     "Jahre": 2003,
     "Wert": 7235,
     "Wertart": "Nominalwert",
   },
   {
-    "Jahre": 2003,
-    "Wert": 10690,
-    "Wertart": "Realwert",
-  },
-  {
     "Jahre": 2004,
     "Wert": 7664,
     "Wertart": "Nominalwert",
-  },
-  {
-    "Jahre": 2004,
-    "Wert": 10290,
-    "Wertart": "Realwert",
   },
   {
     "Jahre": 2005,
@@ -37,19 +21,9 @@ export const grundfreibetrag = [
     "Wertart": "Nominalwert",
   },
   {
-    "Jahre": 2005,
-    "Wert": 10290,
-    "Wertart": "Realwert",
-  },
-  {
     "Jahre": 2006,
     "Wert": 7664,
     "Wertart": "Nominalwert",
-  },
-  {
-    "Jahre": 2006,
-    "Wert": 10290,
-    "Wertart": "Realwert",
   },
   {
     "Jahre": 2007,
@@ -57,19 +31,9 @@ export const grundfreibetrag = [
     "Wertart": "Nominalwert",
   },
   {
-    "Jahre": 2007,
-    "Wert": 10290,
-    "Wertart": "Realwert",
-  },
-  {
     "Jahre": 2008,
     "Wert": 7664,
     "Wertart": "Nominalwert",
-  },
-  {
-    "Jahre": 2008,
-    "Wert": 10290,
-    "Wertart": "Realwert",
   },
   {
     "Jahre": 2009,
@@ -77,19 +41,9 @@ export const grundfreibetrag = [
     "Wertart": "Nominalwert",
   },
   {
-    "Jahre": 2009,
-    "Wert": 10490,
-    "Wertart": "Realwert",
-  },
-  {
     "Jahre": 2010,
     "Wert": 8004,
     "Wertart": "Nominalwert",
-  },
-  {
-    "Jahre": 2010,
-    "Wert": 10180,
-    "Wertart": "Realwert",
   },
   {
     "Jahre": 2011,
@@ -97,19 +51,9 @@ export const grundfreibetrag = [
     "Wertart": "Nominalwert",
   },
   {
-    "Jahre": 2011,
-    "Wert": 10180,
-    "Wertart": "Realwert",
-  },
-  {
     "Jahre": 2012,
     "Wert": 8004,
     "Wertart": "Nominalwert",
-  },
-  {
-    "Jahre": 2012,
-    "Wert": 10180,
-    "Wertart": "Realwert",
   },
   {
     "Jahre": 2013,
@@ -117,19 +61,9 @@ export const grundfreibetrag = [
     "Wertart": "Nominalwert",
   },
   {
-    "Jahre": 2013,
-    "Wert": 10190,
-    "Wertart": "Realwert",
-  },
-  {
     "Jahre": 2014,
     "Wert": 8354,
     "Wertart": "Nominalwert",
-  },
-  {
-    "Jahre": 2014,
-    "Wert": 10370,
-    "Wertart": "Realwert",
   },
   {
     "Jahre": 2015,
@@ -137,19 +71,9 @@ export const grundfreibetrag = [
     "Wertart": "Nominalwert",
   },
   {
-    "Jahre": 2015,
-    "Wert": 10460,
-    "Wertart": "Realwert",
-  },
-  {
     "Jahre": 2016,
     "Wert": 8652,
     "Wertart": "Nominalwert",
-  },
-  {
-    "Jahre": 2016,
-    "Wert": 10630,
-    "Wertart": "Realwert",
   },
   {
     "Jahre": 2017,
@@ -157,19 +81,9 @@ export const grundfreibetrag = [
     "Wertart": "Nominalwert",
   },
   {
-    "Jahre": 2017,
-    "Wert": 10680,
-    "Wertart": "Realwert",
-  },
-  {
     "Jahre": 2018,
     "Wert": 9000,
     "Wertart": "Nominalwert",
-  },
-  {
-    "Jahre": 2018,
-    "Wert": 10700,
-    "Wertart": "Realwert",
   },
   {
     "Jahre": 2019,
@@ -177,19 +91,9 @@ export const grundfreibetrag = [
     "Wertart": "Nominalwert",
   },
   {
-    "Jahre": 2019,
-    "Wert": 10750,
-    "Wertart": "Realwert",
-  },
-  {
     "Jahre": 2020,
     "Wert": 9408,
     "Wertart": "Nominalwert",
-  },
-  {
-    "Jahre": 2020,
-    "Wert": 10980,
-    "Wertart": "Realwert",
   },
   {
     "Jahre": 2021,
@@ -197,19 +101,9 @@ export const grundfreibetrag = [
     "Wertart": "Nominalwert",
   },
   {
-    "Jahre": 2021,
-    "Wert": 11030,
-    "Wertart": "Realwert",
-  },
-  {
     "Jahre": 2022,
     "Wert": 10347,
     "Wertart": "Nominalwert",
-  },
-  {
-    "Jahre": 2022,
-    "Wert": 10960,
-    "Wertart": "Realwert",
   },
   {
     "Jahre": 2023,
@@ -217,18 +111,9 @@ export const grundfreibetrag = [
     "Wertart": "Nominalwert",
   },
   {
-    "Jahre": 2023,
-    "Wert": 10910,
-    "Wertart": "Realwert",
-  },
-  {
     "Jahre": 2024,
     "Wert": 11604,
     "Wertart": "Nominalwert",
-  },
-  {
-    "Jahre": 2024,
-    "Wertart": "Realwert",
   },
 ];
 
