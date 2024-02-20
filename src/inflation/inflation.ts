@@ -18,8 +18,8 @@ export class Inflation {
     inflationRates: Record<number, number>,
     currencyConversions: Record<number, number> = {},
   ) {
-    this.#minYear = Math.min(...Object.keys(inflationRates)) - 1;
-    this.#maxYear = Math.max(...Object.keys(inflationRates));
+    this.#minYear = Math.min(...getKeys(inflationRates)) - 1;
+    this.#maxYear = Math.max(...getKeys(inflationRates));
     this.#inflationRates = inflationRates;
     this.#currencyConversions = currencyConversions;
   }
@@ -105,3 +105,9 @@ export class Inflation {
     return amount * adjustmentFactor;
   }
 }
+
+/**
+ * Wrapper for `Object.keys` with correct TypeScript types
+ */
+const getKeys = <T extends object>(obj: T) =>
+  Object.keys(obj) as Array<keyof T>;
