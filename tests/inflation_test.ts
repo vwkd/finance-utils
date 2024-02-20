@@ -82,7 +82,7 @@ Deno.test("old to new, too old", () => {
       const amountTo = inflation_de.adjust(amountFrom, 1997, 2003);
     },
     Error,
-    "Start year '1997' must be greater than or equal to minimum year '1998'.",
+    "From year '1997' must be greater than or equal to minimum year '1998'.",
   );
 });
 
@@ -94,7 +94,7 @@ Deno.test("old to new, too new", () => {
       const amountTo = inflation_de.adjust(amountFrom, 2004, 2007);
     },
     Error,
-    "End year '2007' must be less than or equal to maximum year '2006'.",
+    "To year '2007' must be less than or equal to maximum year '2006'.",
   );
 });
 
@@ -148,7 +148,7 @@ Deno.test("new to old, too old", () => {
       const amountTo = inflation_de.adjust(amountFrom, 2003, 1997);
     },
     Error,
-    "End year '1997' must be greater than or equal to minimum year '1998'.",
+    "To year '1997' must be greater than or equal to minimum year '1998'.",
   );
 });
 
@@ -160,6 +160,6 @@ Deno.test("new to old, too new", () => {
       const amountTo = inflation_de.adjust(amountFrom, 2007, 2004);
     },
     Error,
-    "Start year '2007' must be less than or equal to maximum year '2006'.",
+    "From year '2007' must be less than or equal to maximum year '2006'.",
   );
 });
